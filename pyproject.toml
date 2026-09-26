@@ -1,0 +1,14 @@
+[project]
+name = "html-character-entity-decoder"
+version = "0.1.0"
+description = "Decodes HTML character entities, both named (e.g., &amp;) and numeric (e.g., &#38;), to their corresponding Unicode characters."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
